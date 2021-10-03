@@ -116,7 +116,7 @@ boder = turtle.Turtle()
 func.make_turtle(boder, '#F0F0F0', '#F0F0F0', 2)
 func.move_turtle(boder, 365, 300)
 boder.begin_fill()
-for _ in range (2):
+for _ in range(2):
     boder.fd(365)
     boder.lt(-90)
     boder.fd(610)
