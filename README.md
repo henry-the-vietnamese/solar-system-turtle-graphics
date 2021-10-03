@@ -4,7 +4,7 @@
 # Documentation
 There are two algorithms that I constantly use when working with a Python Turtle project, which is making a turtle and moving it. Accordingly, I define the two functions to eliminate repetitive code and put them into a new Python file. This is to make it possible to break up such a large program into manageable sized parts, and to keep related parts together. I then use the import statement to use those functions in the Exercise 3 file. 
 
-Firstly, since I use a scale of 1 : 2,000,000,000,000 (turtle unit : centimetre), I create a variable called scale, and assign 2000000000000 to it. Next, I create a list of eight planets with four elements being (the name of the planet, distance from each planet to the sun (measured in million kilometres), colour of the planet, orbital period (measured in Earth days).
+Firstly, since I use a scale of 1 : 2,000,000,000,000 (turtle unit : centimetre), I create a variable called scale, and assign 2,000,000,000,000 to it. Next, I create a list of eight planets with four elements being (the name of the planet, distance from each planet to the sun (measured in million kilometres), colour of the planet, orbital period (measured in Earth days).
 
 I now set the window and write the title on the top right corner of it. After that, I come to the left-right corner to write the scale I use for the representation with a border around it.
 
@@ -25,3 +25,4 @@ The last part is to go to the right side of the window and draw a legend table. 
 
 
 # Output
+![The output of the file main.py](output.jpg)
