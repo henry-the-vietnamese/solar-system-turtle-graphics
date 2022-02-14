@@ -21,7 +21,6 @@ def main():
     # Scale - 1 : 2,000,000,000,000 (turtle unit : centimeter)
     scale = 2000000000000
 
-
     """ Create a list of 8 planets with their elements being:
         1. name of the planet
         2. distance from each planet from the sun, measured in million km
