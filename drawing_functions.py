@@ -1,16 +1,21 @@
+#!/usr/bin/python3
+
 #
-# File:         drawing_procedures.py
+# File:         drawing_functions.py
 # Author:       Tan Duc Mai
 # Email:        tan.duc.work@gmail.com
-# Date:         25/8/2021
-# Description:  Procedures assisting in drawing repetitive shapes.
+# Date:         25-Aug-21
+# Description:  A list of user-defined functions that assist in drawing
 #   I hereby declare that I completed this work without any improper help
 #   from a third party and without using any aids other than those cited.
 #
 
+
+# ------------------------------- Module Import -------------------------------
 import turtle
 
 
+# ---------------------------- Function Definitions ---------------------------
 def make_turtle(animal, pencolour, fillcolour, size):
     animal.shape('turtle')
     animal.color(pencolour, fillcolour)
