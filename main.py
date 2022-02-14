@@ -29,14 +29,16 @@ def main():
         4. orbital period, measured in Earth days
     """
 
-    planets = [('Mercury', 57, 'grey', 88),
-               ('Venus', 108, 'brown', 225),
-               ('Earth', 149, 'cadet blue', 365),
-               ('Mars', 228, 'red3', 687),
-               ('Jupiter', 780, 'saddle brown', 12 * 365),
-               ('Saturn', 1437, 'yellow3', 29 * 365),
-               ('Uranus', 2871, 'green', 84 * 365),
-               ('Neptune', 4530, 'blue', 165 * 365)]
+    planets = (
+        ('Mercury', 57, 'grey', 88),
+        ('Venus', 108, 'brown', 225),
+        ('Earth', 149, 'cadet blue', 365),
+        ('Mars', 228, 'red3', 687),
+        ('Jupiter', 780, 'saddle brown', 12 * 365),
+        ('Saturn', 1437, 'yellow3', 29 * 365),
+        ('Uranus', 2871, 'green', 84 * 365),
+        ('Neptune', 4530, 'blue', 165 * 365),
+    )
 
 
     # Set up the window
