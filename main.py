@@ -13,7 +13,7 @@
 
 # ------------------------------- Module Imports ------------------------------
 import turtle
-import drawing_functions.py as func
+import drawing_functions as func
 
 
 # ------------------------------- Main Function -------------------------------
