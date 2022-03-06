@@ -159,6 +159,9 @@ def main():
         y -= 60
     legend.hideturtle()
 
+    # Wipe the screen out.
+    screen.exitonclick()
+
 
 # --------------------------- Call the Main Function --------------------------
 if __name__ == '__main__':
